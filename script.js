@@ -18,4 +18,7 @@ function calculate() {
     }
   }
 
-  
+  // Function to reset the display
+function reset() {
+    display.value = "";
+  }

@@ -44,3 +44,14 @@ document.addEventListener('keydown', function(event) {
       calculateSquareRoot();
     }
   });
+
+
+  // Function to handle square root calculation
+function calculateSquareRoot() {
+    const num = display.value;
+    if (num < 0) {
+      alert("Cannot calculate the square root of a negative number.");
+    } else {
+      display.value = Math.sqrt(parseFloat(num));
+    }
+  }

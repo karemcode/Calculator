@@ -34,6 +34,19 @@ body{
   text-align: right;
 }
 
+/* media query  */
 
+@media (max-width: 600px) {
+  .calculator {
+    max-width: 100%;
+  }
+  .calculator button {
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+  .calculator input {
+    font-size: 1.5rem;
+  }
+}
     
   
